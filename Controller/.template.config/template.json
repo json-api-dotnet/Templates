@@ -2,14 +2,14 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "JsonApiDotNetCore",
   "classifications": ["Web", "JADNC"],
-  "name": "jadnc model",
-  "identity": "JsonApiDotNetCore.AspNetCore.Model.CSharp",
-  "shortName": "jadnc:model",
+  "name": "jadnc controller",
+  "identity": "JsonApiDotNetCore.AspNetCore.Controller.CSharp",
+  "shortName": "jadnc:controller",
   "tags": {
     "language": "C#"
   },
   "symbols":{
-    "model": {
+    "resource": {
       "type": "parameter",
       "defaultValue": "Article",
       "replaces":"Model",

@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "JsonApiDotNetCore",
+  "classifications": [ "Web", "JADNC" ],
+  "identity": "JsonApiDotNetCore.Demo",
+  "name": "JsonApiDotNetCore Demo App",
+  "shortName": "jadnc",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "_JADNC.App",
+  "preferNameDirectory": "true"
+}

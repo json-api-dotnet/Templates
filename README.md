@@ -10,3 +10,7 @@ dotnet new JADNC:Model
 `dotnet new jadnc:model -m MyModelName`
 
 `dotnet new jadnc:controller -r MyResourceName`
+
+`dotnet new jadnc:repository -r MyResourceName`
+
+`dotnet new jadnc:getallservice -r MyResourceName`

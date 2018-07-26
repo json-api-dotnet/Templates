@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "JsonApiDotNetCore",
+  "classifications": ["Web", "JADNC"],
+  "name": "jadnc GetAllService",
+  "identity": "JsonApiDotNetCore.AspNetCore.GetAllService.CSharp",
+  "shortName": "jadnc:getallservice",
+  "tags": {
+    "language": "C#"
+  },
+  "symbols":{
+    "resource": {
+      "type": "parameter",
+      "defaultValue": "Article",
+      "replaces":"Resource",
+      "fileRename": "Resource"
+    }
+  }
+}

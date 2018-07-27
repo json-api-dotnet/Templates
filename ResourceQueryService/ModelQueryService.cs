@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace App
 {
-    public class ModelResourceGetRelationshipsService : IResourceQueryService<Model, TId>
+    public class ModelQueryService : IResourceQueryService<Model, TId>
     {
       public virtual async Task<IEnumerable<Model>> GetAsync()
       {

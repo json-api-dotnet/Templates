@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace App
 {
-    public class ResourceGetAllService : IGetAllService<Resource>
+    public class ResourceGetAllService : IGetAllService<Resource, TId>
     {
       public virtual async Task<IEnumerable<Resource>> GetAsync()
       {

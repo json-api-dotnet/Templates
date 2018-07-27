@@ -2,7 +2,7 @@
 
 namespace App
 {
-    public class Model : Identifiable
+    public class Model : Identifiable<TId>
     {
 
     }

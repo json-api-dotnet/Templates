@@ -2,18 +2,18 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "JsonApiDotNetCore",
   "classifications": ["Web", "JADNC"],
-  "name": "jadnc model",
-  "identity": "JsonApiDotNetCore.AspNetCore.Model.CSharp",
-  "shortName": "jadnc:model",
+  "name": "jadnc GetRelationshipService",
+  "identity": "JsonApiDotNetCore.AspNetCore.GetRelationshipService.CSharp",
+  "shortName": "jadnc:getrelationshipservice",
   "tags": {
     "language": "C#"
   },
   "symbols":{
-    "model": {
+    "resource": {
       "type": "parameter",
       "defaultValue": "Article",
-      "replaces":"Model",
-      "fileRename": "Model"
+      "replaces":"Resource",
+      "fileRename": "Resource"
     },
     "id": {
       "type": "parameter",

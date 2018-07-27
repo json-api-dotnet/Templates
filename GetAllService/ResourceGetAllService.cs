@@ -8,7 +8,7 @@ namespace App
     {
       public virtual async Task<IEnumerable<Resource>> GetAsync()
       {
-        return null;
+        throw new NotImplementedException();
       }
     }
 }

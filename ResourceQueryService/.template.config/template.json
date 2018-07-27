@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "JsonApiDotNetCore",
+  "classifications": ["Web", "JADNC"],
+  "name": "jadnc ResourceQueryService",
+  "identity": "JsonApiDotNetCore.AspNetCore.ResourceQueryService.CSharp",
+  "shortName": "jadnc:resourcequeryservice",
+  "tags": {
+    "language": "C#"
+  },
+  "symbols":{
+    "resource": {
+      "type": "parameter",
+      "defaultValue": "Article",
+      "replaces":"Model",
+      "fileRename": "Model"
+    },
+    "id": {
+      "type": "parameter",
+      "defaultValue": "int",
+      "replaces":"TId"
+    }
+  }
+}
